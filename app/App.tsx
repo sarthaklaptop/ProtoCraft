@@ -68,20 +68,23 @@ export default function Page() {
   const deleteAllShapes = useMutation(({ storage }) => {
     const canvasObjects = storage.get('canvasObjects');
 
-    if(!canvasObjects || canvasObjects.size === 0) {
-      return true;
-    }
-
-    for (const [key, value] of canvasObjects.entries()) {
-      canvasObjects.delete(key);
-    }
-
-    return canvasObjects.size === 0;
-  }, [])
-
-  const deleteShapeFromStorage = useMutation(({ storage }, shapeId) => {
-    const canvasObjects = storage.get("canvasObjects");
     canvasObjects.delete(shapeId);
+
+
+//     if(!canvasObjects || canvasObjects.size === 0) {
+//       return true;
+//     }
+
+//     for (const [key, value] of canvasObjects.entries()) {
+//       canvasObjects.delete(key);
+//     }
+
+//     return canvasObjects.size === 0;
+//   }, [])
+
+//   const deleteShapeFromStorage = useMutation(({ storage }, shapeId) => {
+//     const canvasObjects = storage.get("canvasObjects");
+//     canvasObjects.delete(shapeId);
   }, []);
 
   const deleteAllShapeFromStorage = useMutation(({ storage }, objectId) => {
@@ -109,7 +112,7 @@ export default function Page() {
         imageInputRef.current?.click();
         isDrawing.current = false;
         if(fabricRef.current) {
-          fabricRef.current.isDrawingMod = false;
+          fabricRef.current.isDrawingMode = false;
         }
         break;
       default: 
