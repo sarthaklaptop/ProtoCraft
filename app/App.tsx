@@ -2,7 +2,7 @@
 
 import {fabric} from "fabric"
 
-import LeftSideBar from "@/components/LeftSideBar";
+import LeftSideBar from "@/components/LeftSidebar";
 import Live from "@/components/Live";
 import Navbar from "@/components/Navbar";
 import RightSideBar from "@/components/RightSideBar";
