@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Todo App
+
+ProtoCraft is in its initial development phase, driven by the vision to redefine design collaboration. We encourage users to explore and provide feedback, especially if any bugs are encountered during use. Your insights will help enhance the stability and functionality of ProtoCraft.
+
+The development of ProtoCraft was inspired by the JSMastery YouTube tutorial, leveraging Liveblocks to bring real-time synchronization to life. Dive into collaborative design with ProtoCraft and, if you encounter any issues, share your feedback to contribute to the ongoing improvement of this project.
+
+
+### Built With
+
+
+* [NextJs](https://nextjs.org/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [Tailwind](https://tailwindcss.com/)
+* [LiveBlocks](https://liveblocks.io/)
 
 ## Getting Started
 
-First, run the development server:
+<!-- ### Prerequisites -->
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Installation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Clone the repo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```sh
+   git clone https://github.com/sarthaklaptop/ProtoCraft.git
+   ```
+   
 
-## Learn More
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+ That's It
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<!-- USAGE EXAMPLES -->
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Features
+
+- **Real-Time Synchronization:** 
+  - Experience seamless collaboration in ProtoCraft with real-time synchronization. All edits, from adding images and freehand drawing to inserting shapes and changing colors, instantly reflect across all connected devices.
+
+
+- **Image Integration:** 
+  - Elevate your designs with ProtoCraft's effortless image integration for seamless collaboration.
+
+
+- **Freeform Drawing:** 
+  - Express freely with ProtoCraft's intuitive drawing for dynamic and interactive design.
+
+- **Shape Tools:** 
+  - Craft polished designs collaboratively with real-time synchronized shape tools in ProtoCraft.
+
+- **Multi-User Collaboration:**
+    - Effortlessly collaborate in real-time with ProtoCraft, where live updates from your design team shape your collective vision.
+
+
+
+
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Sarthak Patil - [Linkdin](https://www.linkedin.com/in/sarthakkpatil/)
+
+Portfolio Link: [Portfolio](https://sarthakk-portfolio.vercel.app/)
+
+ 
