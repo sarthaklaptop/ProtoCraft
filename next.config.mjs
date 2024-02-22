@@ -20,7 +20,7 @@ const nextConfig = {
     },
     typescript: {
         ignoreBuildErrors: true
-    }
+    },
 
     // the code below was showing this error :- 
     // Module parse failed: Unexpected character '�' (1:0) You may need an appropriate loader 
