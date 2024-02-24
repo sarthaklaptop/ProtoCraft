@@ -1,4 +1,4 @@
-## Todo App
+## ProtoCraft
 
 ProtoCraft is in its initial development phase, driven by the vision to redefine design collaboration. We encourage users to explore and provide feedback, especially if any bugs are encountered during use. Your insights will help enhance the stability and functionality of ProtoCraft.
 
